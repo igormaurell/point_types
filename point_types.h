@@ -4,6 +4,11 @@
 #include <pcl/point_types.h>
 #include <pcl/point_cloud.h>
 #include <pcl/io/pcd_io.h>
+#include <pcl/filters/passthrough.h>
+#include <pcl/filters/impl/passthrough.hpp>
+#include <pcl/filters/conditional_removal.h>
+#include <pcl/filters/voxel_grid.h>
+#include <pcl/filters/statistical_outlier_removal.h>
 
 struct _PointXYZFace
 {
