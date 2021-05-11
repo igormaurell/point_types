@@ -1,3 +1,5 @@
+#ifndef POINT_TYPES_H
+#define POINT_TYPES_H
 #define PCL_NO_PRECOMPILE
 #include <pcl/memory.h>
 #include <pcl/pcl_macros.h>
@@ -207,3 +209,4 @@ POINT_CLOUD_REGISTER_POINT_STRUCT (PointXYZRGBNormalFace,
     (float, curvature, curvature)
     (int, label, label)
 )
+#endif //POINT_TYPES_H
